@@ -1,0 +1,42 @@
+@import "../variables";
+
+
+#footer{
+    background-color: $bg-header-footer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;	
+    
+    .logo{
+        img{
+            width: 100px;
+        }
+    }
+
+    .navbar{
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: rgba(255, 255, 255, 0.485);
+                }
+            }
+        }
+    }
+
+    .copy{
+        p{
+            color: white;
+        }
+    }
+}
